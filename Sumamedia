@@ -1,0 +1,58 @@
+Algoritmo sin_titulo
+	// Calcular la media de una serie de números positivos, 
+	// suponiendo que los datos se leen desde un terminal. 
+	// Un valor de cero como entrada indicará que se ha alcanzado el final de la serie de números positivos.
+	
+	Definir sum_tot Como Entero;
+	sum_tot=0;
+	
+	Definir med_tot Como real;
+	med_tot=0;
+	
+	Definir num Como entero;
+	num=0;
+	
+	Definir cont Como entero;
+	cont=0;
+	Definir acum Como entero;
+	acum=0;
+	
+	
+	
+	Escribir "                              BIENVENIDO: ";
+	Escribir "";
+	Escribir "";
+	Escribir "Indicaciones: Digite números pares y se sumaran a medida que los vaya insertando";
+	Escribir "Cuando usted digite 0 se calculara la suma y la media";
+	Escribir "Empecemos!!!";
+	
+	Escribir "";
+	Escribir "";
+	Escribir "DIGITE UN NUMERO PAR: ";
+	leer num;
+	
+	
+	Mientras num<>0 Hacer
+		cont=cont+1;
+		acum=acum+num;
+		Escribir "";
+		Escribir "";
+		Escribir "DIGITE UN NUMERO PAR: ";
+		leer num;
+	Fin Mientras
+	
+	sum_tot=acum;
+	med_tot=sum_tot/cont;
+	Escribir "";
+	Escribir "";
+	Escribir "LA SUMA TOTAL ES: " sum_tot;
+	Escribir "";
+	Escribir "";
+	Escribir "LA MEDIA TOTAL ES: " med_tot;
+	
+
+	
+	
+	
+	
+FinAlgoritmo

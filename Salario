@@ -1,0 +1,78 @@
+Algoritmo SALARIO
+	// Calcular el salario bruto y el salario neto de un trabajador "por horas" conociendo el nombre, 
+	// número de horas trabajadas, impuestos a pagar y salario neto.
+	
+	Definir nom_emp Como caracter;
+	
+	Definir hor_tra Como real;
+	hor_tra=0;
+	
+	Definir pec_hor Como real;
+	prec_hor=0;
+	
+	Definir sal_bru Como real;
+	sal_bru=0;
+	
+	Definir interes Como real;
+	interes=0;
+	
+	Definir sal_net Como real;
+	sal_net=0;
+	
+	
+	Escribir "                              BIENVENIDO: ";
+	Escribir "";
+	Escribir "";
+	Escribir "DIGITE EL NOMBRE DEL EMPLEADO: ";
+	leer nom_emp;
+	
+	Escribir "";
+	Escribir "";
+    Escribir "DIGITE EL NUMERO DE HORAS TRABAJADAS: ";
+	leer hor_tra;
+	
+	Escribir "";
+	Escribir "";
+    Escribir "DIGITE EL PRECIO POR HORA: ";
+	leer prec_hor;
+	
+    sal_bru = (hor_tra * prec_hor);
+	interes = (sal_bru * 0.25);
+	sal_net = (sal_bru - interes);
+	
+	Escribir "";
+	Escribir "";
+	
+	Escribir "INFORMACION DE PAGO DEL EMPLEADO: " nom_emp;
+	Escribir "";
+	Escribir "";
+	
+	Escribir "HORAS TRABAJADAS: " hor_tra;
+	Escribir "";
+	Escribir "";
+	
+	Escribir "PRECIO POR HORA: " prec_hor;
+	Escribir "";
+	Escribir "";
+	
+	Escribir "SALARIO BRUTO: " sal_bru;
+	Escribir "";
+	Escribir "";
+	
+	Escribir "VALOR IMPUESTOS: " interes;
+	Escribir "";
+	Escribir "";
+	
+	Escribir "SALARIO NETO: " sal_net;
+	Escribir "";
+	Escribir "";
+	
+	
+	
+	Escribir "";
+	Escribir "";
+	
+	
+	
+	
+FinAlgoritmo
